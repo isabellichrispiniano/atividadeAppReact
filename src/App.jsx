@@ -2,13 +2,13 @@ import React from "react";
 import { SafeAreaView,StyleSheet, Text } from "react-native";
 
 import EntradaTexto from "./components/EntradaTexto";
-import EntrairSair from "./components/EntrairSair";
+import JanelaCadastro from "./components/JanelaCadastro";
 
 export default () =>{
     return (
         <SafeAreaView style={style.fundo}>
-         <EntradaTexto/> 
-         
+         {/* <EntradaTexto/>  */}
+         <JanelaCadastro/>
         </SafeAreaView>
     )
 }
@@ -22,3 +22,4 @@ const style = StyleSheet.create(
         }
     }
 )
+

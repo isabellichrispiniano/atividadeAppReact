@@ -34,7 +34,6 @@ export default props => {
 
                 <TextInput style={style.Input}
                     onChangeText={value => setUsuario(value)}
-                    value={usuario}
                     maxLength={30}
                     placeholder="Insira seu usuário"
                 />
